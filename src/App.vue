@@ -17,6 +17,11 @@ export default {
 <style lang="scss">
 @import "./styles/variables.scss";
 
+html{
+  overflow: hidden;
+  height: 100%;    
+}
+
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("./assets/img/main_bg@2x.jpg") no-repeat center center fixed;
@@ -24,5 +29,8 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: auto;
+  height: 100%;
+  transform-style:flat
 }
 </style>
