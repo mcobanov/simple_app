@@ -1,10 +1,14 @@
 <template>
   <div class="navbar">
-    <span class="hamburger" @click="toggleSidebar()" v-if="isMobileView">&#8801;</span>
-    <div class="panel" :class="{'visible': isSidebarVisible}">
+    <span class="hamburger" @click="toggleSidebar()" v-if="isMobileView"
+      >&#8801;</span
+    >
+    <div class="panel" :class="{ visible: isSidebarVisible }">
       <ul>
         <li @click="toggleSidebar()"><router-link to="/">Home</router-link></li>
-        <li @click="toggleSidebar()"><router-link to="/contact">Contact</router-link></li>
+        <li @click="toggleSidebar()">
+          <router-link to="/contact">Contact</router-link>
+        </li>
       </ul>
     </div>
   </div>
@@ -94,7 +98,7 @@ export default {
       background-color: $primary-background;
       margin: 0px;
       justify-content: center;
-      transition: transform ease-in .3s;
+      transition: transform ease-in 0.3s;
 
       ul {
         flex-direction: column;
@@ -109,7 +113,7 @@ export default {
 
       &.visible {
         transform: translateX(250px);
-        transition: transform ease-in .3s;
+        transition: transform ease-in 0.3s;
       }
     }
   }

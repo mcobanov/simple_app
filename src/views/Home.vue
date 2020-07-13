@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img class="particles-js" src="../assets/img/geralt.png" alt="Geralt of Rivia" />
+    <img src="../assets/img/geralt.png" alt="Geralt of Rivia" />
     <section>
       <h2>Geralt of Rivia</h2>
       <hr />

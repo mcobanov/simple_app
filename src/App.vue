@@ -17,9 +17,9 @@ export default {
 <style lang="scss">
 @import "./styles/variables.scss";
 
-html{
+html {
   overflow: hidden;
-  height: 100%;    
+  height: 100%;
 }
 
 body {
@@ -31,6 +31,12 @@ body {
   background-size: cover;
   overflow: auto;
   height: 100%;
-  transform-style:flat
+  transform-style: flat;
+}
+
+.toasted{
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 18px !important;
+  text-transform: uppercase;
 }
 </style>
