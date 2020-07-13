@@ -6,14 +6,17 @@
 ```
 npm install
 ```
-
 ---
 ### Start dev server:
 ```
 npm run dev
 ```
 * App will be available at http://localhost:5200/
-
+---
+#### SCREENSHOTS
+![home](src/assets/img/showcase/homepage.jpg?raw=true "Home")
+![contact](src/assets/img/showcase/contact.jpg?raw=true "Contact")
+![mobile](src/assets/img/showcase/mobile.jpg?raw=true "Mobile")
 ---
 ### Compiling for production
 ```
